@@ -1,0 +1,14 @@
+node
+{
+  stage'initial'
+  sh "echo initialised"
+  
+  stage'build'
+  sh"echo builded"
+  
+  stage'package'
+  sh "echo packaged"
+  
+  stage'install'
+  sh "echo installed"
+}
